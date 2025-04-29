@@ -1,0 +1,29 @@
+/* Add to styles.css */
+.dark-mode .table {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+    border-color: #495057;
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.dark-mode .pagination .page-link {
+    background-color: #343a40;
+    border-color: #495057;
+    color: #f8f9fa;
+}
+
+.dark-mode .pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
